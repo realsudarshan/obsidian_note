@@ -1,0 +1,12 @@
+Steps in making ML model
+- Problem Defination
+- Data colllection
+- [[EDA]]
+- Data Preprocessing/Cleaning
+- Feature selection and Engineering
+- Split the dataset
+- Model Selection 
+- Model Training
+- Model Evaluation
+- Hyper Parameter Tuning
+- Model Training and Validation
