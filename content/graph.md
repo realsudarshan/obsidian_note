@@ -15,6 +15,8 @@ Notes, ideas, and half-formed thoughts — captured before they disappear. This 
 
 [Browse Topics →](/tags)
 
+<button class="btn-ghost" id="open-graph-btn">🕸 View Graph</button>
+
 </div>
 
 <div class="stats-row">
@@ -29,9 +31,10 @@ Notes, ideas, and half-formed thoughts — captured before they disappear. This 
 
 <div class="home-quote">
 
-> In its most practical form, creativity is about connecting ideas together. — *Tiago Forte*
+> The mind is not a vessel to be filled, but a fire to be kindled. — *Plutarch*
 
 </div>
+
 <div class="home-topics">
 
 <p class="stag">EXPLORE</p>
@@ -54,7 +57,29 @@ Pick a thread and pull.
 
 - 🗂 **Browse the Explorer** — Use the sidebar to navigate folders and notes.
 - 🔍 **Search anything** — Click the search bar or hit `/` to find any note instantly.
-- 🕸 **Follow the Graph** — Click the ⊕ icon on the graph sidebar to see all notes connected.
+- 🕸 **Follow the Graph** — Click "View Graph" above to see all notes connected visually.
 - 🔗 **Backlinks** — Every note shows what links to it — trace ideas backwards.
 
 </div>
+
+<script>
+document.addEventListener("nav", () => {
+  const btn = document.getElementById("open-graph-btn")
+  if (!btn) return
+
+  btn.addEventListener("click", () => {
+    // Try clicking the global-graph-icon with retries
+    let attempts = 0
+    const tryClick = () => {
+      const icons = document.getElementsByClassName("global-graph-icon")
+      if (icons.length > 0) {
+        icons[0].dispatchEvent(new MouseEvent("click", { bubbles: true }))
+      } else if (attempts < 10) {
+        attempts++
+        setTimeout(tryClick, 100)
+      }
+    }
+    tryClick()
+  })
+})
+</script>
