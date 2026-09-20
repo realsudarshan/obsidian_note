@@ -1,0 +1,1 @@
+External system available in internal(i.e API) that MCP server can connect to

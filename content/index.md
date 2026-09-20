@@ -41,7 +41,7 @@ Notes, ideas, and half-formed thoughts — captured before they disappear. This 
 Pick a thread and pull.
 
 - 🤖 **[Supervised Learning](/Supervised-Learning)** — Regression, classification, loss functions and the math behind machines that learn.
-- 🧠 **[What is AI](/What-is-AI)** — Foundations, philosophy, and the big question — what does it mean for a machine to think?
+- 🧠 **[What is AI](/AI/)** — Foundations, philosophy, and the big question — what does it mean for a machine to think?
 - 📖 **More coming soon** — This garden is actively growing. New ideas get planted regularly.
 
 </div>

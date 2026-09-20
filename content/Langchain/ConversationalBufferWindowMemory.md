@@ -1,0 +1,1 @@
+Only keeps the last N interactions to avoid excessive token usage

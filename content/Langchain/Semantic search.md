@@ -1,0 +1,1 @@
+Due to this,RAG based application can be formed like "chatbot with PDF"

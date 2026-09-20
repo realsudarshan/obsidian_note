@@ -1,0 +1,1 @@
+**Single-turn Conversations** involve sending a single prompt/message to the LLM and getting a single response. It is useful for one-time queries like summarizing a research paper or generating a poem. Here, you typically use a single PromptTemplate or static prompt where the interaction is standalone and doesn’t rely on previous context.

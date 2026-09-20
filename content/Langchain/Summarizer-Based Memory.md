@@ -1,0 +1,1 @@
+Periodically summarizes older chat segments to keep a condensed memory footprint

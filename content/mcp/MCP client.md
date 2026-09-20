@@ -1,0 +1,1 @@
+Protocol client that maintain 1 to 1 connection with MCP server

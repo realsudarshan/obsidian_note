@@ -1,0 +1,1 @@
+Stores a transcript of recent messages.Great for short charts but can grow large quickly.
